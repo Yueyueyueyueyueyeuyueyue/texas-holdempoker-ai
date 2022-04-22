@@ -22,7 +22,7 @@ const sleep = (timeoutMS: number) => new Promise((resolve) => {
 
 const data = [{
   round: Round.PreFlop,
-  description: '前位无加注(除盲注)，本人是大盲',
+  description: '前位无加注(除盲注)，本人是大盲 ',
   decisions: [[Decision.Check, 0.75], [Decision.Raise, 0.25]],
 }, {
   round: Round.PreFlop,
