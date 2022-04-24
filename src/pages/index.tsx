@@ -34,7 +34,7 @@ const data = [{
   decisions: [[Decision.Fold, 0.25], [Decision.Call, 0.65], [Decision.Raise, 0.10]],
 }, {
   round: Round.Flop,
-  description: '前位无加注',
+  description: '前位 无加注',
   decisions: [[Decision.Check, 0.65], [Decision.Raise, 0.35]],
 }, {
   round: Round.Flop,
